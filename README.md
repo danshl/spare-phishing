@@ -37,7 +37,9 @@ Here is a brief example of how the attack simulation works:
      ```
      Hi John,
 
-     Congratulations on your recent success in cybersecurity! As a fellow enthusiast, I came across a new tool that could enhance your future projects. Check it out here [malicious link].
+     Congratulations on your recent success in cybersecurity! 
+     As a fellow enthusiast, I came across a new tool that could enhance your future projects.
+     Check it out here [malicious link].
 
      Best,
      [Fake Name]
@@ -57,14 +59,7 @@ In this section, we utilize the dataset provided by Gaggle to train and evaluate
 2. **Running the Code**:
     - It is recommended to run `spare_detection_model.py` in [Google Colab](https://colab.research.google.com/) for the best experience and ease of use.
     - The script will first create and train the model using the `emails.csv` dataset.
-    - After training, the model will be saved in the `trained_model/` folder.
 3. **Testing with Personal Emails**:
     - The code also includes instructions on how to input your own emails for testing.
     - This allows you to see how well the model performs on data outside the provided dataset.
 
-#### Example Commands
-```bash
-# To train the model and evaluate it using the dataset
-python spare_detection_model.py
-
-# Ensure the trained model is saved in the specified folder
