@@ -1,0 +1,11 @@
+{
+    "name": "Daniel Shlomo",
+    "about": "Passionate 3rd-year Computer Science student at Ben Gurion University,poised to transition into a dynamic environment that fosters the cultivation and expansion of skills in both development and cybersecurity fields. With hands-on experience in the cyber world, I am fueled by a profound appreciation for the synergy between people and software, catalyzing extraordinary outcomes.\n\nMy journey continues as I prepare to complete my first degree and embark on a second degree specializing in security, commencing in October.\n\nAs a dedicated team player, I bring not only knowledge but also boundless enthusiasm to the table. My passion lies in harnessing the potential of software development and cybersecurity, and I am eager to channel this passion into meaningful contributions.\n\nIf you are in search of a proactive and dedicated team member who shares your zeal for innovation and excellence, let's connect. Together, let's explore how our collaboration can yield remarkable results in the ever-evolving landscape of technology and security.",
+    "education": ["Ben-Gurion University, BS.c computer Science "],
+    "interests": ["cyber","programming","software development"],
+    "posts": [
+              "great post about cyber",
+              "wow that attack was phenomenal!",
+              "here is my top-score hacking test from yesterday"
+    ]
+}
