@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to simulate a spear phishing attack by leveraging social engineering techniques and advanced natural language processing capabilities. Spear phishing is a targeted attempt to steal sensitive information such as account credentials or financial information from a specific individual, often for malicious reasons, by masquerading as a trustworthy entity.
+This project aims to simulate a spear phishing attack by leveraging social engineering techniques and advanced natural language processing capabilities. Spear phishing is a targeted attempt to steal sensitive information, such as account credentials or financial information, from a specific individual, often for malicious reasons, by masquerading as a trustworthy entity.
 
 ## Project Description
 
@@ -14,10 +14,10 @@ The core objective of this part is to automate the creation of personalized phis
 
 1. **Company User Extraction:**
    - Given a username or identifier of a company, the system extracts from Facebook a list of individuals who work at the company.
-   
+     
 2. **Post Extraction:**
    - For each extracted individual, the system retrieves their latest social media post.
-   
+   - 
 3. **Personalized Message Creation:**
    - Using ChatGPT, the system generates a personalized phishing message for each individual based on their most recent post.
 
