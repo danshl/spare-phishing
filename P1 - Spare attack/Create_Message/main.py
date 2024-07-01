@@ -2,21 +2,23 @@ import json
 import openai
 from openai import AzureOpenAI
 from openai import OpenAI
+from env import API_KEY, API_BASE, API_TYPE, AZURE_API_VERSION, AZURE_ENDPOINT, OPENAI_API_VERSION, DEPLOYMENT_NAME
 
 client = OpenAI()
 
-openai.api_type = "azure"
-openai.api_base = "xxxxx/"  # os.getenv("AZURE_OPENAI_ENDPOINT")
-openai.api_key =  'xxxxxxx'  #os.getenv("OPENAI_API_KEY")
-openai.api_version = "2023-12-01"
+##examples for env variables in comments:
+openai.api_type = API_TYPE                  #"azure"
+openai.api_base = API_BASE                  #"https://SimShig.openai.azure.com/"
+openai.api_key =  API_KEY                   #'asdasdasd123123123123123123123'
+openai.api_version = OPENAI_API_VERSION     #"2023-12-01"
 
 client = AzureOpenAI(
-    api_key="xxxxxx",  # os.getenv("AZURE_OPENAI_KEY"),
-    api_version="2023-12-01-preview",
-    azure_endpoint="xxxxxx/"  # os.getenv("AZURE_OPENAI_ENDPOINT"),
+    api_key= API_KEY,                       #'asdasdasd123123123123123123123'
+    api_version= AZURE_API_VERSION,         # "2023-12-01-preview",
+    azure_endpoint=  AZURE_ENDPOINT         #"https://SimShig.openai.azure.com/"
 )
 
-deployment_name = 'gpt4-avishag'
+deployment_name = DEPLOYMENT_NAME           #'gpt4-SimShig'
 
 
 def get_completion(prompt_sys, prompt_user, model=deployment_name ):#"gpt-3.5-turbo-16k"):#"gpt-3.5-turbo-16k-0613"):#:#"gpt-3.5-turbo"):
@@ -37,7 +39,7 @@ def get_completion(prompt_sys, prompt_user, model=deployment_name ):#"gpt-3.5-tu
 
 # Function to load JSON data from a file
 def load_json_from_file(filename):
-    with open(filename, 'r') as file:
+    with open(filename, 'r', encoding="utf-8") as file:
         return json.load(file)
 
 

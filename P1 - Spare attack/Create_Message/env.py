@@ -1,0 +1,7 @@
+API_TYPE = "aa"
+API_BASE = "aa"  # os.getenv("AZURE_OPENAI_ENDPOINT")
+API_KEY =  'aa'  #os.getenv("OPENAI_API_KEY")
+OPENAI_API_VERSION = "aa"
+AZURE_API_VERSION = "aa"
+AZURE_ENDPOINT = "aa"
+DEPLOYMENT_NAME = 'aa'
