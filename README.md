@@ -17,7 +17,7 @@ The core objective of this part is to automate the creation of personalized phis
      
 2. **Post Extraction:**
    - For each extracted individual, the system retrieves their latest social media post.
-   - 
+   
 3. **Personalized Message Creation:**
    - Using ChatGPT, the system generates a personalized phishing message for each individual based on their most recent post.
 
@@ -47,7 +47,7 @@ Here is a brief example of how the attack simulation works:
 
 ### Part 2: Using the External Dataset for Training and Evaluation
 
-In this section, we utilize the dataset provided by Gaggle to train and evaluate the model. The provided code is designed to be easily run in Google Colab, making it convenient for users to replicate the training process. Additionally, you can use this code to test the model with your own personal emails.
+In this section, we utilize the dataset provided by Kaggle to train and evaluate the model. The provided code is designed to be easily run in Google Colab, making it convenient for users to replicate the training process. Additionally, you can use this code to test the model with your own personal emails.
 
 #### Folder Structure
 - `trained_model/`: This folder contains the trained model files after the training process is completed.
